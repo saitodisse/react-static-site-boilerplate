@@ -1,5 +1,5 @@
 
-var React = require('react')
+var React = require('react');
 
 var About = React.createClass({
   render: function () {
@@ -7,9 +7,8 @@ var About = React.createClass({
       <main>
         About component
       </main>
-    )
+    );
   }
-})
+});
 
-module.exports = About
-
+module.exports = About;

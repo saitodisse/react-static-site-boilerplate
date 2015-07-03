@@ -1,5 +1,5 @@
 
-var React = require('react')
+var React = require('react');
 
 var Index = React.createClass({
   render: function () {
@@ -7,9 +7,8 @@ var Index = React.createClass({
       <main>
         Index component
       </main>
-    )
+    );
   }
-})
+});
 
-module.exports = Index
-
+module.exports = Index;

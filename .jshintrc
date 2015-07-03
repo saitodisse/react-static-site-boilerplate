@@ -1,0 +1,17 @@
+{
+  "undef": true,
+  "unused": true,
+  "esnext": true,
+  "node": true,
+  "browser": true,
+
+  "predef": [
+    "$",
+    "jQuery",
+    "systems",
+    "persistent",
+    "path"
+  ],
+
+  "-W030": true
+}

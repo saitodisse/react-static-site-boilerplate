@@ -1,7 +1,7 @@
 
-var React = require('react')
-var Router = require('react-router')
-var Link = Router.Link
+var React = require('react');
+var Router = require('react-router');
+var Link = Router.Link;
 
 var Header = React.createClass({
   propTypes: {
@@ -17,9 +17,8 @@ var Header = React.createClass({
           <Link to='/about' className='button button-transparent'>About</Link>
         </div>
       </header>
-    )
+    );
   }
-})
+});
 
-module.exports = Header
-
+module.exports = Header;
